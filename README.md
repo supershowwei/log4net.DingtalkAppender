@@ -11,6 +11,11 @@ Send log to Dingtalk.
     <layout type="log4net.Layout.PatternLayout">
       <conversionPattern value="%type{1}.%method%newline%message" />
     </layout>
+    <emoticon>
+      <notice>[广播]</notice>
+      <warn>[流汗]</warn>
+      <error>[发怒]</error>
+    </emoticon>
     <filter type="log4net.Filter.LevelRangeFilter">
       <levelMin value="NOTICE"/>
       <levelMax value="ERROR"/>
