@@ -7,6 +7,13 @@ namespace log4net.Appender
 {
     public class DingtalkAppender : AppenderSkeleton
     {
+        public DingtalkAppender()
+        {
+            this.Emoticon = new Emoticon();
+        }
+
+        public Emoticon Emoticon { get; set; }
+
         public string WebhookUrl { get; set; }
 
         protected override void Append(LoggingEvent loggingEvent)
@@ -28,17 +35,17 @@ namespace log4net.Appender
             client.Execute(request);
         }
 
-        private static string GetEmoticon(Level level)
+        private string GetEmoticon(Level level)
         {
             switch (level.DisplayName.ToLowerInvariant())
             {
                 case "warn":
-                    return "[流汗]";
+                    return this.Emoticon.Warn;
                 case "error":
                 case "fatal":
-                    return "[大哭]";
+                    return this.Emoticon.Error;
                 default:
-                    return "[广播]";
+                    return this.Emoticon.Notice;
             }
         }
 
@@ -53,7 +60,7 @@ namespace log4net.Appender
                                        Content =
                                            string.Format(
                                                "{0} [{1}] on {2}\r\n{3}",
-                                               GetEmoticon(loggingEvent.Level),
+                                               this.GetEmoticon(loggingEvent.Level),
                                                loggingEvent.Level.DisplayName,
                                                GlobalContext.Properties["log4net:HostName"],
                                                this.RenderLoggingEvent(loggingEvent))

@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}</ProjectGuid>
+    <ProjectGuid>{D848F3CA-5154-4B71-8D35-E856A9220FFA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>log4net.DingtalkAppender</RootNamespace>
     <AssemblyName>log4net.DingtalkAppender</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,7 +40,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RestSharp.105.2.3\lib\net452\RestSharp.dll</HintPath>
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net451\RestSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -51,10 +52,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DingtalkAppender.cs" />
-    <Compile Include="Emoticon.cs" />
-    <Compile Include="Message.cs" />
-    <Compile Include="MessageText.cs" />
+    <Compile Include="..\log4net.DingtalkAppender\DingtalkAppender.cs">
+      <Link>DingtalkAppender.cs</Link>
+    </Compile>
+    <Compile Include="..\log4net.DingtalkAppender\Message.cs">
+      <Link>Message.cs</Link>
+    </Compile>
+    <Compile Include="..\log4net.DingtalkAppender\MessageText.cs">
+      <Link>MessageText.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
