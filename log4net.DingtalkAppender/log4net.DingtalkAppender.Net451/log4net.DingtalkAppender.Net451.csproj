@@ -55,6 +55,9 @@
     <Compile Include="..\log4net.DingtalkAppender\DingtalkAppender.cs">
       <Link>DingtalkAppender.cs</Link>
     </Compile>
+    <Compile Include="..\log4net.DingtalkAppender\Emoticon.cs">
+      <Link>Emoticon.cs</Link>
+    </Compile>
     <Compile Include="..\log4net.DingtalkAppender\Message.cs">
       <Link>Message.cs</Link>
     </Compile>
