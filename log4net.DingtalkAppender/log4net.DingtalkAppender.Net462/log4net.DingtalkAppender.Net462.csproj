@@ -7,8 +7,8 @@
     <ProjectGuid>{51EFC193-8C04-4408-8483-9F2275E243C5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>log4net.DingtalkAppender.Net462</RootNamespace>
-    <AssemblyName>log4net.DingtalkAppender.Net462</AssemblyName>
+    <RootNamespace>log4net.DingtalkAppender</RootNamespace>
+    <AssemblyName>log4net.DingtalkAppender</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
