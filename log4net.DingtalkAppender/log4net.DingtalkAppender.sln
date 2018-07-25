@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.Net462", "log4net.DingtalkAppender.Net462\log4net.DingtalkAppender.Net462.csproj", "{51EFC193-8C04-4408-8483-9F2275E243C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.Net472", "log4net.DingtalkAppender.Net472\log4net.DingtalkAppender.Net472.csproj", "{912ED510-B96D-4AAA-8359-8F99CCDBC858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.Net452", "log4net.DingtalkAppender.Net452\log4net.DingtalkAppender.Net452.csproj", "{C1D8AE46-EE00-4829-A779-F170C63F537F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,19 @@ Global
 		{51EFC193-8C04-4408-8483-9F2275E243C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51EFC193-8C04-4408-8483-9F2275E243C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51EFC193-8C04-4408-8483-9F2275E243C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912ED510-B96D-4AAA-8359-8F99CCDBC858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912ED510-B96D-4AAA-8359-8F99CCDBC858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912ED510-B96D-4AAA-8359-8F99CCDBC858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912ED510-B96D-4AAA-8359-8F99CCDBC858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D8AE46-EE00-4829-A779-F170C63F537F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D8AE46-EE00-4829-A779-F170C63F537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D8AE46-EE00-4829-A779-F170C63F537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D8AE46-EE00-4829-A779-F170C63F537F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380EAF8B-ADAB-45CF-A7CE-99A67868F152}
 	EndGlobalSection
 EndGlobal
