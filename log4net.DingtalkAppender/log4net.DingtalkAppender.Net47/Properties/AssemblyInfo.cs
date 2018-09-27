@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("log4net.DingtalkAppender.Net462")]
+[assembly: AssemblyTitle("log4net.DingtalkAppender.Net47")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("log4net.DingtalkAppender.Net462")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("log4net.DingtalkAppender.Net47")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("51efc193-8c04-4408-8483-9f2275e243c5")]
+[assembly: Guid("6ae94b6e-6a47-420a-b0e8-80c99a18d9d9")]
 
 // 組件的版本資訊由下列四個值所組成: 
 //

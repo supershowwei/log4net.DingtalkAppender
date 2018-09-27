@@ -51,21 +51,15 @@ namespace log4net.Appender
 
         private Message GenerateMessage(LoggingEvent loggingEvent)
         {
-            return new Message
-                       {
-                           Msgtype = "text",
-                           Text =
-                               new MessageText
-                                   {
-                                       Content =
-                                           string.Format(
-                                               "{0} [{1}] on {2}\r\n{3}",
-                                               this.GetEmoticon(loggingEvent.Level),
-                                               loggingEvent.Level.DisplayName,
-                                               GlobalContext.Properties["log4net:HostName"],
-                                               this.RenderLoggingEvent(loggingEvent))
-                                   }
-                       };
+            var emoticon = this.GetEmoticon(loggingEvent.Level);
+            var hostName = GlobalContext.Properties["log4net:HostName"];
+            var renderedLog = this.RenderLoggingEvent(loggingEvent);
+
+            var content = $"{emoticon} [{loggingEvent.Level.DisplayName}] on {hostName}\r\n{renderedLog}";
+
+            content = content.Replace("\r", string.Empty);
+
+            return new Message { Msgtype = "text", Text = new MessageText { Content = content } };
         }
     }
 }
