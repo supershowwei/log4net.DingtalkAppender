@@ -5,11 +5,9 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender", "log4net.DingtalkAppender\log4net.DingtalkAppender.csproj", "{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.Net45", "log4net.DingtalkAppender.Net45\log4net.DingtalkAppender.Net45.csproj", "{01B501AD-3ACC-45C3-9EE6-BC2F38F1229E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.NETStandard20", "log4net.DingtalkAppender.NETStandard20\log4net.DingtalkAppender.NETStandard20.csproj", "{E9E1693A-3755-408E-81D6-E4F9110B0F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.Net46", "log4net.DingtalkAppender.Net46\log4net.DingtalkAppender.Net46.csproj", "{CFDED8B3-FE5A-43C5-A1CA-D708CA91359D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.Net47", "log4net.DingtalkAppender.Net47\log4net.DingtalkAppender.Net47.csproj", "{6AE94B6E-6A47-420A-B0E8-80C99A18D9D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.NET451", "log4net.DingtalkAppender.NET451\log4net.DingtalkAppender.NET451.csproj", "{9D11BF62-A011-4249-B313-8CD57808AE42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +19,14 @@ Global
 		{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01B501AD-3ACC-45C3-9EE6-BC2F38F1229E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01B501AD-3ACC-45C3-9EE6-BC2F38F1229E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01B501AD-3ACC-45C3-9EE6-BC2F38F1229E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01B501AD-3ACC-45C3-9EE6-BC2F38F1229E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFDED8B3-FE5A-43C5-A1CA-D708CA91359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFDED8B3-FE5A-43C5-A1CA-D708CA91359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFDED8B3-FE5A-43C5-A1CA-D708CA91359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFDED8B3-FE5A-43C5-A1CA-D708CA91359D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6AE94B6E-6A47-420A-B0E8-80C99A18D9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6AE94B6E-6A47-420A-B0E8-80C99A18D9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6AE94B6E-6A47-420A-B0E8-80C99A18D9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6AE94B6E-6A47-420A-B0E8-80C99A18D9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D11BF62-A011-4249-B313-8CD57808AE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11BF62-A011-4249-B313-8CD57808AE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D11BF62-A011-4249-B313-8CD57808AE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D11BF62-A011-4249-B313-8CD57808AE42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
