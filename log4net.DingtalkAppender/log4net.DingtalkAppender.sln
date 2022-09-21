@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender", "log4net.DingtalkAppender\log4net.DingtalkAppender.csproj", "{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender", "log4net.DingtalkAppender\log4net.DingtalkAppender.csproj", "{F79C7947-CF2E-4705-82F6-CFD35591F396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.NETStandard20", "log4net.DingtalkAppender.NETStandard20\log4net.DingtalkAppender.NETStandard20.csproj", "{E9E1693A-3755-408E-81D6-E4F9110B0F01}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.NET451", "log4net.DingtalkAppender.NET451\log4net.DingtalkAppender.NET451.csproj", "{9D11BF62-A011-4249-B313-8CD57808AE42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.DingtalkAppender.WinForms", "log4net.DingtalkAppender.WinForms\log4net.DingtalkAppender.WinForms.csproj", "{D2ACBA1F-5047-475F-9866-F415AB9D7F59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06790ACB-E6F2-49E3-A8FD-DBC75B914A1B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9E1693A-3755-408E-81D6-E4F9110B0F01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D11BF62-A011-4249-B313-8CD57808AE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D11BF62-A011-4249-B313-8CD57808AE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D11BF62-A011-4249-B313-8CD57808AE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D11BF62-A011-4249-B313-8CD57808AE42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79C7947-CF2E-4705-82F6-CFD35591F396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79C7947-CF2E-4705-82F6-CFD35591F396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79C7947-CF2E-4705-82F6-CFD35591F396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79C7947-CF2E-4705-82F6-CFD35591F396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ACBA1F-5047-475F-9866-F415AB9D7F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ACBA1F-5047-475F-9866-F415AB9D7F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ACBA1F-5047-475F-9866-F415AB9D7F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ACBA1F-5047-475F-9866-F415AB9D7F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
